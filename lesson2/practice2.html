@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice2</title>
+</head>
+<body>
+<script>
+    // if -> если
+    // else -> иначе
+    // prompt ('name') -> возращает стрингу
+    // +prompt ('age') -> возвращает цифру
+    // confirm ('who you are?') -> выводит окно с надписью ок/отмена
+    // && -> и
+    // || -> или
+    // switch -> переключатель между кейсами (case), в конце (default) если не один кейс не сработал
+    // case -> в конце кейса всегда ставить (break), иначе выведет все кейсы до след break
+    // ternary
+    //     Math.random MathFloor
+    //     array.length
+
+
+    // let xxx = confirm('are you older than 18?'); // выводит окно где можно выбрать или ок или отмена, и возвращает ответ ввиде правда или ложь
+    // console.log(xxx);
+
+    // let age = +prompt('enter your age');//функция возвращает только число в переменную age, просто prompt возвращает стрингу
+    // // if (age > 18) {document.write('<h1> adult video</h1>');}//если больше 18
+    // // if (age <=18) {document.write('<h1> kids video</h1>');}//если меньше или равно
+    // if (age > 18) {
+    //     document.write('<h1> adult video</h1>');
+    // } else if (age > 0 && age <= 10) { // если age больше 0 (&&/и) age меньше/равно 10
+    //     document.write('<h1> kids video</h1>');
+    // } else if (age > 10 && age <= 18) { // если age больше 10 (&&/и) age меньше/равно 18
+    //     document.write('<h1> anime video</h1>');
+    // }
+
+    // let color = 'green';
+    // if (color === 'red') {
+    //     console.log('stop')
+    // } else if (color === 'yellow') {
+    //     console.log('wait');
+    // } else if (confirm('road is clear?') || color === 'green') {
+    //     console.log('go!');
+    // } else {
+    //     console.log('?????');
+    // }
+
+    // // let key = 'winter';
+    // let key = prompt('what weather today?');
+    // switch (key) {
+    //     case 'winter' :
+    //         console.log('одягайтесь тепло');
+    //         break;
+    //     case 'summer':
+    //         console.log('go to lake');
+    //         break;
+    //     default:
+    //         console.log('asdasdasd')
+    // }
+
+    // let name = prompt('enter your name') || 'john doe';
+    // document.write(`<h2>hello ${name}</h2>`);
+
+    // let num = +prompt('number?');
+    // // let num = 100;
+    // if (num === 100) {
+    //     asd = 'hundred';
+    // } else {
+    //     asd = 'not hundred';
+    // }
+    // console.log(asd);
+
+    // let num = +prompt('number?');
+    // let asd = num === 100 ? 'hundred' : 'not hundred'; // читабельно
+    // // let asd = num === 100 ? 'hundred' : num === 1000? 'thousend' : 'not thousend'; // не очень читабельно/не популярно
+    // console.log(asd);
+
+    // if(true) console.log('asdasd'); // if можно писать и так, не рекомендуется, редко встречается
+    // else console.log('qweqwe'); // else можно писать и так не рекомендуется, редко встречается
+
+    // console.log(Math.random()); // рандомное число, но максимум 0.99999999999 и т.д.
+    // console.log(Math.random()* 100); // 99.9 в периоде
+    // console.log(Math.floor(3.14)* 100);// убирает все что после запятой
+    // console.log(Math.round(3.6));// округляет до целого числа
+
+
+
+    // let age = 19;
+    // let gender = 'female';
+    // // if (age >= 18) {
+    // //     document.write('<div>hello</div>');
+    // //     if (gender === 'male') {
+    // //         document.write('<img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" alt="">')
+    // //     } else if (gender === 'female') {
+    // //         document.write('<img src="https://upload.wikimedia.org/wikipedia/ru/e/ec/Lisa_Simpson.png" alt="">')
+    // //     } else if (gender === 'unknown') {
+    // //         document.write('<img src="https://static.wikia.nocookie.net/southpark/images/a/ae/Prototye-eric-cartman.png" alt="">')
+    // //     }else {
+    // //         document.write('<img src="https://static.wikia.nocookie.net/southpark/images/a/ae/Prototye-eric-" alt="">')
+    // //
+    // //     }
+    // //
+    // //
+    // // } else {
+    // //     document.write('<div>not hello</div>')
+    // // }
+    //
+    // if (age > 17 && gender === 'male') {
+    //     document.write('<img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" alt="">')
+    // } else if (age > 17 && gender === 'female') {
+    //     document.write('<img src="https://upload.wikimedia.org/wikipedia/ru/e/ec/Lisa_Simpson.png" alt="">')
+    //
+    // }
+
+
+    // let value = 'asudhfhasfd';
+    // switch (value) {
+    //     case 'a':
+    //         console.log(' case 1');
+    //         break;
+    //     case 'b':
+    //         console.log(' case 2');
+    //         break;
+    //     case 'c':
+    //         console.log(' case 3');
+    //         break;
+    //     default :
+    //         console.log('default');
+    //
+    // }
+
+
+    // let xxx = '';
+    // if (!xxx) {
+    //     xxx = '100500';
+    // }
+    // console.log(xxx)
+
+    // let xxx = '' || '100500';
+    // console.log(xxx);
+
+    // let xxx = !!100 ? 1 : 2;
+    // console.log(xxx);
+
+
+</script>
+
+</body>
+</html>
