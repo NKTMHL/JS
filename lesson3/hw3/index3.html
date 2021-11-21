@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hw3</title>
+</head>
+<body>
+<script>
+  // 1)+ --створити масив з:
+  // - з 5 числових значень
+  // - з 5 стічкових значень
+  // - з 5 значень стрічкового, числового та булевого типу
+  // - та вивести його в консоль
+  // let arr1 = [11, 22, 33, 44, 55];
+  // let arr2 = ['11', '22', '33', '44', '55'];
+  // let arr3 = [11, 22, '33', true, false];
+  // console.log(arr1);
+  // console.log(arr2);
+  // console.log(arr3);
+
+  // 2)+ -- Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. Вивести в консоль
+  // let arr = [];
+  // arr[0] = 'А';
+  // arr[1] = 'ба';
+  // arr[2] = 'ба';
+  // arr[3] = 'га';
+  // arr[4] = 'ла';
+  // arr[5] = 'ма';
+  // arr[6] = 'га';
+  // console.log(arr);
+  // document.write(arr);
+
+  // + За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+  // for (let i = 0; i < 10; i++) {
+  //   document.write(`<div>item</div>`);
+
+  // + За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
+  //   for (let i = 0; i < 10; i++) {
+  //     document.write(`<div>item ${i}</div>`);
+
+  // + За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+  // let i = 0;
+  // while (i < 20) {
+  //   document.write(`<h1>Lorem ipsum dolor sit amet.</h1>`)
+  //   i++;
+  // }
+
+  // + За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
+  // let i = 1;
+  // while (i <= 20) {
+  //   document.write(`<h1>Твой номер: ${i}</h1>`)
+  //   i++;
+  // }
+
+  // 3)+ - Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
+  // let arr = [1, 32, 56, 47, 83, 92, 101, 274, 999, 100500];
+  // for (let i = 0; i < arr.length; i++) {
+  //   console.log(arr[i]);
+  // }
+
+  // + Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
+  // let arr1 = ['Карл', 'у', 'Клары', 'украл', 'кораллы', 'Клара', 'у', 'Карла', 'украла', 'кларнет'];
+  // for (let a = 0; a < arr1.length; a++) {
+  //   console.log(arr1[a]);
+  // }
+
+  // + Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
+  // let arr2 = [true, false, 1, 2, 3, 'what?', [4, 5, 6], 2021, 'bart', 'simpson'];
+  // for (let b = 0; b < arr2.length; b++) {
+  //   console.log(arr2[b]);
+  // }
+
+  // + Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
+  // let arr3 = [true, false, 1, 2, 3, 'what?', [4, 5, 6], 2021, 'bart', 'simpson'];
+  // for (let c = 0; c < arr3.length; c++) {
+  //   if (typeof arr3[c] === 'boolean') {
+  //     console.log(arr3[c]);
+  //   }
+  // }
+
+  // + Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
+  // let arr4 = [true, false, 1, 2, 3, 'what?', [4, 5, 6], 2021, 'bart', 'simpson'];
+  // for (let d = 0; d < arr4.length; d++) {
+  //   if (typeof arr4[d] === 'number') {
+  //     console.log(arr4[d]);
+  //   }
+  // }
+
+  // + Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
+  // let arr5 = [true, false, 1, 2, 3, 'what?', [4, 5, 6], 2021, 'bart', 'simpson'];
+  //   for (let e = 0; e < arr5.length; e++) {
+  //     if (typeof arr5[e] === 'string') {
+  //       console.log(arr5[e]);
+  //     }
+  //   }
+
+  // 4)+ - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
+  // let arr = [];
+  // arr[0] = true;
+  // arr[1] = 2;
+  // arr[2] = 'what?';
+  // arr[3] = false;
+  // arr[4] = 1;
+  // arr[5] = 3;
+  // arr[6] = [4, 5, 6];
+  // arr[7] = 'Абабагаламага';
+  // arr[8] = 'bart';
+  // arr[9] = 'simpson';
+  // for (let f = 0; f < arr.length; f++) {
+  //   console.log(arr[f]);
+  // }
+
+  // + Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+  // for (let g = 0; g < 10; g++) {
+  //   console.log(g);
+  //   document.write(g + '<br/>');
+  // }
+
+  // + Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+  // for (let h = 0; h < 100; h++) {
+  //   console.log(h);
+  //   document.write(h + '<br/>');
+  // }
+
+  // + Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+  // for (let j = 0; j < 100; j += 2) {
+  //   console.log(j);
+  //   document.write(j + '<br/>');
+  // }
+
+  // + Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+  // for (let k = 0; k < 100; k++) {
+  //   if (k % 2 === 0) {
+  //     console.log(k);
+  //     document.write(k + '<br/>');
+  //   }
+  // }
+
+  // + Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+  // for (let l = 0; l < 100; l++) {
+  //   if (l % 2) {
+  //     console.log(l);
+  //     document.write(l + '<br/>');
+  //   }
+  // }
+
+</script>
+</body>
+</html>
